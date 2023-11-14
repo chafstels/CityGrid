@@ -206,7 +206,7 @@ class CityWithReliability(CityGrid):
         plt.show()
 
     def _draw_reliable_path(self, ax, node1, node2):
-        # Отрисовка надежного пути
+        # Отрисовка надежного пути›
         row1, col1 = node1
         row2, col2 = node2
         ax.plot([col1 + 0.5, col2 + 0.5], [row1 + 0.5, row2 + 0.5], linestyle='solid', color='r')
